@@ -28,6 +28,11 @@ const Home = () => {
                   ForUseEffect
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/ForUseRef">
+                  ForUseRef
+                </Link>
+              </li>
             </ul>
             <form className="d-flex">
               <input
