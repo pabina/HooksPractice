@@ -23,6 +23,11 @@ const Home = () => {
                   ForUseReducer
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/ForUseEffect">
+                  ForUseEffect
+                </Link>
+              </li>
             </ul>
             <form className="d-flex">
               <input
