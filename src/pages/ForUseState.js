@@ -1,4 +1,5 @@
 import React from "react";
+import Home from "./Home";
 import "../mycss.css";
 import { useState } from "react";
 
@@ -15,6 +16,7 @@ const ForUseState = () => {
 
   return (
     <>
+      <Home />
       <h2>increment counter</h2>
       <div className="countsection">
         {counter}
