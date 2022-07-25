@@ -5,8 +5,10 @@ import ForUseState from "./pages/ForUseState";
 import ForUseReducer from "./pages/ForUseReducer";
 import ForUseEffect from "./pages/ForUseEffect";
 import ForUseRef from "./pages/ForUseRef";
+import ForContext from "./pages/ForContext";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
           <Route path="/forUseReducer" element={<ForUseReducer />}></Route>
           <Route path="/forUseEffect" element={<ForUseEffect />}></Route>
           <Route path="/forUseRef" element={<ForUseRef />}></Route>
+          <Route path="/forContext" element={<ForContext/>}></Route>
+          
         </Routes>
       </Router>
     </>

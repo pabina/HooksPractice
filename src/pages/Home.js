@@ -33,6 +33,11 @@ const Home = () => {
                   ForUseRef
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/forContext">
+                  ForContext
+                </Link>
+              </li>
             </ul>
             <form className="d-flex">
               <input
